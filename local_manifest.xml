@@ -2,6 +2,7 @@
 <manifest>
 
  <remote name="mt6768dev" fetch="https://github.com/mt6768-dev"/>
+ <remote name="sanjeev" fetch="https://gitlab.com/sanjeevstunner"/>
 
 
  <!-- Device Trees -->
@@ -19,6 +20,7 @@
  <project path="hardware/mediatek" name="mt6768_dev/android_hardware_mediatek" remote="mt6768dev" revision="lineage-20" />
  <project path="device/mediatek/sepolicy_vndr" name="mt6768_dev/android_device_mediatek_sepolicy_vndr" remote="mt6768dev" revision="lineage-20" />
  <project path="packages/apps/MtkFMRadio" name="mt6768_dev/android_packages_apps_MtkFMRadio" remote="mt6768dev" revision="lineage-20" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="sanjeev" revision="master" clone-depth="1" />
  
  
 </manifest>
