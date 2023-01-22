@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Trees -->
- <project path="device/lava/21" name="mt6768-dev/android_device_xiaomi_lancelot.git" remote="github" revision="lineage-20" />
- <project path="device/lava/mt6768-common" name="6768Team/android_device_xiaomi_mt6768-common" remote="github" revision="lineage-20" />
- <project path="vendor/lava" name="6768Team/android_vendor_xiaomi_lava.git" remote="github" revision="lineage-20" />
- <project path="kernel/lava/21" name="mt6768_dev/android_kernel_xiaomi_mt6768.git" remote="github" revision="lineage-20" />
+ <remote name="mt6768dev" fetch="https://github.com/mt6768-dev"/>
+
+
+ <!-- Device Trees -->
+ <project path="device/xiaomi/lancelot" name="mt6768-dev/android_device_xiaomi_lancelot" remote="mt6768dev" revision="lineage-20" />
+ <project path="device/xiaomi/mt6768-common" name="mt6768-dev/android_device_xiaomi_mt6767-common" remote="mt6768dev" revision="lineage-20" />
+ 
+ <!-- Vendor Trees -->
+ <project path="vendor/xiaomi/lancelot" name="mt6768-dev/proprietary_vendor_xiaomi_lancelot" remote="mt6768dev" revision="lineage-20" />
+ <project path="vendor/xiaomi/mt6768-common" name="mt6768-dev/proprietary_vendor_xiaomi_mt6768-common" remote="mt6768dev" revision="lineage-20" />
+ 
+ <!-- Kernel Trees -->
+ <project path="kernel/xiaomi/mt6768" name="mt6768_dev/android_kernel_xiaomi_mt6768" remote="mt6768dev" revision="lineage-20" />
+ 
+ <!-- Other -->
+ <project path="hardware/mediatek" name="mt6768_dev/android_hardware_mediatek" remote="mt6768dev" revision="lineage-20" />
+ <project path="device/mediatek/sepolicy_vndr" name="mt6768_dev/android_device_mediatek_sepolicy_vndr" remote="mt6768dev" revision="lineage-20" />
+ <project path="packages/apps/MtkFMRadio" name="mt6768_dev/android_packages_apps_MtkFMRadio" remote="mt6768dev" revision="lineage-20" />
+ 
  
 </manifest>
