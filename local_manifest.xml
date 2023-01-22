@@ -2,9 +2,9 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/lancelot/G" name="mt6768-dev/android_device_xiaomi_lancelot.git" remote="github" revision="lineage-20" />
+ <project path="device/lancelot/21" name="mt6768-dev/android_device_xiaomi_lancelot.git" remote="github" revision="lineage-20" />
  <project path="device/lancelot/mt6768-common" name="6768Team/android_device_xiaomi_mt6768-common" remote="github" revision="lineage-20" />
  <project path="vendor/lancelot" name="6768Team/android_vendor_xiaomi_lava.git" remote="github" revision="lineage-20" />
- <project path="kernel/lancelot/G" name="mt6768_dev/android_kernel_xiaomi_mt6768.git" remote="github" revision="lineage-20" />
+ <project path="kernel/lancelot/21" name="mt6768_dev/android_kernel_xiaomi_mt6768.git" remote="github" revision="lineage-20" />
  
 </manifest>
