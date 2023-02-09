@@ -4,7 +4,6 @@
  <remote name="dev" fetch="https://github.com/mt6768-dev"/>
  <remote name="me" fetch="https://github.com/emanosi"/>
  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD"/>
- <remote name="Ara" fetch="https://gitlab.com/Arafattex" />
 
  <!-- Device Trees -->
  <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot" remote="me" revision="lineage-20" />
@@ -20,9 +19,6 @@
  <!-- Other -->
  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="dev" revision="lineage-20" />
  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="dev" revision="lineage-20" />
- <project path="vendor/shas" name="vendor_shas" remote="Ara"  clone-depth="1" revision="13"/>
- <project path="vendor/ngapps" name="vendor_ngapps" remote="Ara" clone-depth="1" revision="13"/>
-
 
  <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
